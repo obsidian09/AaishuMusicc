@@ -20,8 +20,7 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 
 # ── Owner ────────────────────────────────────────────────
 OWNER_ID = int(getenv("OWNER_ID"))
-OWNER_USERNAME = "MohitAgarwal"
-
+OWNER_USERNAME = getenv("OWNER_USERNAME")
 # ── Branding ─────────────────────────────────────────────
 BOT_NAME = "『 𝗔ᴀɪsʜᴜ 𝗠ᴜsɪᴄ 』🖤"
 BOT_USERNAME = "AaishuMusicBot"
